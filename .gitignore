@@ -1,0 +1,35 @@
+# === Rust build output ===
+/target/
+**/target/
+
+# === Cargo specific ===
+# /Cargo.lock
+**/Cargo.lock
+
+# === Backup & Temp Files ===
+**/*.rs.bk
+**/*.swp
+**/*.swo
+**/*.tmp
+*~
+
+# === Editor folders ===
+# VSCode
+.vscode/
+
+# JetBrains IDEs (IntelliJ, CLion, etc.)
+.idea/
+
+# === OS-specific ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# === Logs or dump files ===
+*.log
+
+# === Dependencies ===
+node_modules/
